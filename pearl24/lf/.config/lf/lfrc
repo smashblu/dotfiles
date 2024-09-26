@@ -1,0 +1,9 @@
+# Options
+set icons true
+
+# Keybinds
+map . set hidden!
+
+# Previews
+set previewer ~/.config/lf/preview.go
+set cleaner ~/.config/lf/cleaner

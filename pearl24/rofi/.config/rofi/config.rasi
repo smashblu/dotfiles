@@ -1,0 +1,10 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+//@theme "gruvbox-light"
+
+/* Insert theme modifications after this */
+
+@theme "/home/luke/.local/share/rofi/themes/spotlight-dark.rasi"

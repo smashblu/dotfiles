@@ -1,0 +1,12 @@
+* {
+    border: none;
+    border-radius: 6;
+    font-family: "SFNS Display";
+    font-size: 12;
+    min-height: 0;
+}
+
+#window#waybar {
+    background: #282A2E;
+    color: white;
+}

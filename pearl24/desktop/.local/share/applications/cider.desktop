@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Cider
+Exec=/home/luke/.local/bin/Cider-linux-appimage-x64.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=cider
+StartupWMClass=Cider
+X-AppImage-Version=2.4.1
+Comment=A cross-platform Apple Music experience built on Vue.js and written from the ground up with performance in mind
+Categories=AudioVideo;

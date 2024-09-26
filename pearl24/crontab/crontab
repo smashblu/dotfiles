@@ -1,0 +1,1 @@
+*/59 * * * * DISPLAY=":0.0" /bin/feh --randomize --bg-fill ~/GoogleDrive/Pictures/Wallpapers
