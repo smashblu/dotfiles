@@ -24,6 +24,20 @@ A repository of personal dotfiles for several PC instances. This repo is setup f
 <details>
 <summary>Show</summary>
 
+- bash
+- cron
+- desktop icons
+- flameshot
+- hyprland
+- i3
+- kitty
+- lf
+- picom
+- polybar
+- powerlevel10k
+- rofi
+- sddm
+- waybar
 - zsh
 
 </details>
