@@ -17,11 +17,7 @@ A repository of personal dotfiles for several PC instances. This repo is setup f
 
 # Instances
 
-- [Arch Linux (pearl24)]()
-- [Mac OS]()
-- [NixOS (desktop]()
-- [Arch Linux (server)]()
-- [NixOS (server]()
+- [Arch Linux (pearl24)](pearl24)
 
 # Components
 
