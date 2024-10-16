@@ -23,7 +23,12 @@ A repository of personal dotfiles for several PC instances. This repo is setup f
 
 - Ensure `stow` package is installed on system
 - In terminal, navigate to repo then instance subfolder
-- Run command: `stow <PACKAGE> -v --target=/home/<USER>/`
+- Run command:
+
+```
+stow <PACKAGE> -v --target=/home/<USER>/
+```
+
 - If command fails because <PACKAGE> exists, remove old config files from target folder
 
 # Components
