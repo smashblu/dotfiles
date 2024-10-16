@@ -19,6 +19,13 @@ A repository of personal dotfiles for several PC instances. This repo is setup f
 
 - [Arch Linux (pearl24)](pearl24)
 
+# Installation
+
+- Ensure `stow` package is installed on system
+- In terminal, navigate to repo then instance subfolder
+- Run command: `stow <PACKAGE> -v --target=/home/<USER>/`
+- If command fails because <PACKAGE> exists, remove old config files from target folder
+
 # Components
 
 <details>
