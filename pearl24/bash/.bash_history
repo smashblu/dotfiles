@@ -294,3 +294,44 @@ vim Desktop/Arch/third.md
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 exit
+sudo pacman -Syu github-cli
+gh auth login
+ls -la
+rm -rf .bash*
+ls -la
+cd Programs/dotfiles/pearl24/
+stow bash -v --target=/home/luke/
+cd ~
+ls -la
+ll
+exit
+chsh -l
+echo $SHELL
+echo $0
+chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh
+sudo usermod -s /usr/bin/zsh
+sudo usermod -s /usr/bin/zsh luke
+chsh -l
+sudo usermod -s /bin/zsh luke
+exit
+sudo vipw
+who
+sudo chsh -s $(which zsh)
+echo $SHELL
+chsh -s $(which zsh)
+exit
+echo $SHELL
+sudo chsh -s luke $(which zsh)
+sudo chsh -u luke $(which zsh)
+su
+su
+exit
+echo $ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ls -la
+ls -la .oh-my-zsh/
+vim .bashrc 
+vim .bash_logout 
+vim .bash_profile 
+reboot
