@@ -197,6 +197,7 @@ assign [class="Signal"] $ws7
 assign [class="discord"] $ws7 
 # Workspace 8 ($ws8): Media
 assign [class="Cider"] $ws8 
+assign [class="cider"] $ws8 
 assign [class="vlc"] $ws8 
 # Workspace 9 ($ws9): File System
 assign [class="dolphin"] $ws9 
