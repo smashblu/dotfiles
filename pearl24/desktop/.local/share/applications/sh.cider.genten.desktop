@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Cider
+Comment=A cross-platform Apple Music experience built on Vue.js and written from the ground up with performance in mind.
+GenericName=Music Player
+Exec=flatpak run sh.cider.genten %U
+Icon=/var/lib/flatpak/app/sh.cider.genten/current/active/files/share/pixmaps/sh.cider.genten.png
+Type=Application
+StartupNotify=true
+Categories=Audio;AudioVideo;
+MimeType=x-scheme-handler/cider;x-scheme-handler/itms;x-scheme-handler/itmss;x-scheme-handler/music;x-scheme-handler/itunes;
+
