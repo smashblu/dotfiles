@@ -192,6 +192,7 @@ assign [class="vscodium"] $ws6
 assign [class="VSCodium"] $ws6
 assign [class="obsidian"] $ws6
 assign [class="krita"] $ws6
+assign [class="FreeCAD"] $ws6
 # Workspace 7 ($ws7): Messaging
 assign [class="Signal"] $ws7 
 assign [class="discord"] $ws7 
