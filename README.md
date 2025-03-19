@@ -40,6 +40,7 @@ stow <PACKAGE> -v --target=/home/<USER>/
 - cron
 - desktop icons
 - flameshot
+- ghostty
 - hyprland
 - i3
 - kitty
