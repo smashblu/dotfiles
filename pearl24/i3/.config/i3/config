@@ -54,7 +54,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Open emoji picker
-bindsym $mod+semicolon exec rofi -modi emoji -show emoji
+bindsym $mod+semicolon exec rofi -modi "emoji:rofimoji" -show emoji
 
 # Start a terminal
 bindsym $mod+Return exec ghostty
