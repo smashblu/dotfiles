@@ -18,7 +18,7 @@ set $mod Mod4
 exec --no-startup-id dex --autostart --environment i3
 
 # Mount Google Drive with rclone
-exec --no-startup-id rclone mount GoogleDrive: ~/GoogleDrive --fast-list
+exec --no-startup-id rclone mount gdrive: ~/GoogleDrive --fast-list
 
 # Enable polkit to allow privilege elevation on apps
 exec --no-startup-id lxpolkit
