@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Synergy
-Exec=flatpak run com.symless.synergy --background
-Terminal=false
-Type=Application
-Icon=com.symless.synergy
-StartupWMClass=Synergy
-Comment=Configurator for Synergy
-Categories=Utility;
