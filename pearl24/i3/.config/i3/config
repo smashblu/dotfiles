@@ -173,10 +173,9 @@ bindsym $mod+Right workspace next
 # Assign programs to specific workspaces
 # Workspace 3 ($ws3): Browsers
 assign [class="firefox"] $ws3 
-assign [class="chromium"] $ws3
-assign [class="Chromium"] $ws3
-assign [class="LibreWolf"] $ws3
-assign [class="floorp"] $ws3
+assign [instance="chromium" class="Chromium"] $ws3
+assign [instance="Navigator" class="librewolf"] $ws3
+assign [instance="Navigator" class="floorp"] $ws3
 # Workspace 4 ($ws4): Remote Desktop
 assign [class="parsecd"] $ws4 
 assign [class="Moonlight"] $ws4 
@@ -202,11 +201,17 @@ assign [class="FreeCAD"] $ws6
 assign [class="Signal"] $ws7 
 assign [class="discord"] $ws7 
 # Workspace 8 ($ws8): Media
-assign [class="Cider"] $ws8 
-assign [class="cider"] $ws8 
+assign [instance="cider" class="Cider"] $ws8 
 assign [class="vlc"] $ws8 
 # Workspace 9 ($ws9): File System
 assign [class="dolphin"] $ws9 
+
+# Float certain windows
+for_window [title="Steam Settings"] floating enable
+for_window [title="Network Connections"] floating enable
+for_window [class="pavucontrol"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [instance="system-config-printer"] floating enable
 
 ################
 ### RESIZING ###
