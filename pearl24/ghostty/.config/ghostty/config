@@ -44,4 +44,4 @@
 background-opacity = 0.9
 font-family = MesloLGS NF
 theme = catppuccin-mocha.conf
-window-decoration = none
+window-decoration = client
