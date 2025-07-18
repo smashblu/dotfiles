@@ -269,4 +269,4 @@ exec xrdb -merge ~/.Xresources
 exec --no-startup-id "rm ~/.Xauthority && ln -s $XAUTHORITY ~/.Xauthority"
 
 # Set random wallpaper at start
-exec --no-startup-id "sleep 10; feh --randomize --bg-fill ~/GoogleDrive/Pictures/Wallpapers"
+exec --no-startup-id "sleep 30; feh --randomize --bg-fill ~/GoogleDrive/Pictures/Wallpapers"
