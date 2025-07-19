@@ -200,6 +200,7 @@ assign [class="FreeCAD"] $ws6
 # Workspace 7 ($ws7): Messaging
 assign [class="Signal"] $ws7 
 assign [class="discord"] $ws7 
+assign [class="Bluebubbles"] $ws7
 # Workspace 8 ($ws8): Media
 assign [instance="cider" class="Cider"] $ws8 
 assign [class="vlc"] $ws8 
