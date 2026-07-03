@@ -41,10 +41,10 @@ exec --no-startup-id xset dpms 0 0 0
 ### KEYBINDS ###
 ################
 
-# Interactive screenshot with flameshot
-bindsym $mod+Shift+F5 exec flameshot gui
-# Crop area screenshot with flameshot
-bindsym $mod+Shift+F4 exec flameshot gui -s
+# Interactive screenshot with Spectacle
+bindsym $mod+Shift+F5 exec spectacle -g
+# Crop area screenshot with Spectacle
+bindsym $mod+Shift+F4 exec spectacle -r
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
