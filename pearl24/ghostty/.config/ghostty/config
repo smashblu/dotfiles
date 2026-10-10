@@ -45,3 +45,5 @@ background-opacity = 0.9
 font-family = MesloLGS NF
 theme = catppuccin-mocha.conf
 window-decoration = client
+window-height = 45 
+window-width = 144
